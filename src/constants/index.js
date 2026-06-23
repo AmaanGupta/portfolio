@@ -1208,4 +1208,5 @@ export const includedRepos = [
   "publiclab/plots2",
   "zulip/zulip",
   "paritytech/polkadot-sdk",
+  "supabase/cli"
 ];
