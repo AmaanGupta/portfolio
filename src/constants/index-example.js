@@ -338,8 +338,7 @@ export const aboutMe = {
   intro: "",
 };
 
-// The maximum number of PRs to be displayed in the Open Source Contributions section.
-export const itemsToFetch = 20;
+
 
 // GitHub repos to show open source contributions from.
 // Each entry is either "owner/repo" or ["owner/repo", "public-display-name"].

@@ -5,13 +5,9 @@ import styles from "./style";
 import {
   Navbar,
   Hero,
-  Education,
   SkillsAndExperience,
-  ExtraCurricular,
   Footer,
-  OpenSource,
   Projects,
-  BlogPosts,
   Loading,
   Achievements,
 } from "./components";
@@ -50,25 +46,21 @@ const App = () => {
               </div>
             </div>
 
-            <div
-              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
-            >
-              <div className={`${styles.boxWidth}`}>
-                <SkillsAndExperience />
-                <Education />
-              </div>
-            </div>
-            <Achievements />
-            <div
-              className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
-            >
-              <div className={`${styles.boxWidth}`}>
-                <Projects />
-                <BlogPosts enabled={false} />
-                <OpenSource />
-                <ExtraCurricular />
-              </div>
-            </div>
+            <div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+  <div className={`${styles.boxWidth}`}>
+    <SkillsAndExperience />
+  </div>
+</div>
+
+<div className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}>
+  <div className={`${styles.boxWidth}`}>
+    <Projects />
+  </div>
+</div>
+
+<Achievements />
+
+
             <Footer />
           </motion.section>
         )}

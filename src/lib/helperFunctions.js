@@ -1,5 +1,5 @@
 import axios from "axios";
-import { aboutMe, itemsToFetch, includedRepos } from "../constants";
+import { aboutMe,includedRepos } from "../constants";
 
 /**
  * Normalizes `includedRepos` entries into objects the GitHub fetch flow expects.

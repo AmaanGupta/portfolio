@@ -95,9 +95,9 @@ import { RiGeminiFill } from "react-icons/ri";
 
 export const resumeLink =
   "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
-export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
+export const repoLink = "https://github.com/AmaanGupta";
 
-export const callToAction = "https://www.linkedin.com/in/mittal-parth";
+export const callToAction = "https://www.linkedin.com/in/amaan-gupta-7bba7b329/";
 
 export const navLinks = [
   {
@@ -105,52 +105,20 @@ export const navLinks = [
     title: "Skills & Experience",
   },
   {
-    id: "education",
-    title: "Education",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "achievements",
     title: "Achievements",
   },
   {
-    id: "projects",
-    title: "Projects",
-  },
-  {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
-    id: "extraCurricular",
-    title: "Extra Curricular",
-  },
-  {
     id: "contactMe",
-    title: "Contact Me",
+    title: "Contact",
   },
 ];
 
-// Add your past academic experiences here
-export const educationList = [
-  {
-    id: "education-1",
-    icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
-  },
-  {
-    id: "education-2",
-    icon: pba,
-    title: "Polkadot Blockchain Academy",
-    degree: "",
-    duration: "May 2024 - June 2024",
-    content1:
-      "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
-  },
-];
+
 
 // Add your past achievements here for example - rankings in hackathons/events
 export const achievements = [
@@ -168,129 +136,7 @@ export const achievements = [
     youtube:
       "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
   },
-  {
-    id: "a-2",
-    icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 12 Winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
-    article:
-      "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
-  },
-  {
-    id: "a-3",
-    icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
-    content1:
-      "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
-    article:
-      "https://www.linkedin.com/posts/mittal-parth_hackathon-winners-web3-activity-7048340759116214272-eJvo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOa76QB7zljgX8NK4xVSZXi0Z49ETMeC-g",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-4",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed 2023",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-5",
-    icon: lightspeed,
-    event: "Warpspeed: Agentic AI Hackathon | Lightspeed India",
-    position: "Runners Up in the Base Track",
-    content1: "Built an ambient virtual assistant before ChatGPT Pulse",
-    content2: "Runners up in the Base Track with the Agentic AI theme for 2025",
-    project: "https://devfolio.co/projects/aeva-58d2",
-  },
-  {
-    id: "a-6",
-    icon: kudos,
-    event: "Kudos Carnival | Polkadot Blockchain Academy",
-    position: "Runner Up",
-    content1: "Finished 2nd globally among PBA Alumni in a 6-week event",
-    content2: "Contributed to several repositories in the Polkadot ecosystem in a Hacktoberfest-style event",
-    article: "https://www.morekudos.com/carnival",
-  },
-  {
-    id: "a-7",
-    icon: web3_marketing_hackathon,
-    event: "Web3 Marketing Hackathon",
-    position: "Runner Up",
-    content1:
-      "2nd position in the Polkadot Challenge I - Creative Marketing Strategies to Boost Polkadot Awareness & Adoption",
-    content2: "",
-    content3: "",
-    article: "https://x.com/polkadotsub0/status/1998425721916551355?s=46",
-    project: "https://taikai.network/OutofOrdinary/hackathons/web3mkthack/projects/cmi0skdbk0257vu09q3n8m44u/idea",
-  },
-  {
-    id: "a-8",
-    icon: globalAi,
-    event: "Global AI HackFest 2023",
-    position: "Winner",
-    content1:
-      "1st Position in the Education, Finance & Tech track by AI Planet",
-    content2: "",
-    content3: "",
-    article:
-      "https://www.linkedin.com/posts/mittal-parth_happy-to-share-that-comicifyai-emerged-as-activity-7078790186435833856-88fh",
-  },
-  {
-    id: "a-9",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1:
-      "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-10",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2:
-      "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-11",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1:
-      "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-12",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1:
-      "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
-  },
+  
 ];
 
 // Add your software developments skills here for example - programming languages, frameworks etc.
@@ -996,175 +842,11 @@ export const projects = [
 ];
 
 // Add links to blogs here
-export const blogPosts = [
-  {
-    id: "post-1",
-    title: "Blog Post 01 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(), // Can be edited to any string format
-    image: "https://via.placeholder.com/600/92c952",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01",
-      },
-      {
-        id: "tag-2",
-        name: "tag 03",
-      },
-      {
-        id: "tag-3",
-        name: "tag 03",
-      },
-    ],
-  },
-  {
-    id: "post-2",
-    title: "Blog Post 02 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/d32776",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01",
-      },
-      {
-        id: "tag-2",
-        name: "tag 03",
-      },
-      {
-        id: "tag-3",
-        name: "tag 03",
-      },
-    ],
-  },
-  {
-    id: "post-3",
-    title: "Blog Post 03 - Title",
-    link: "#",
-    date: new Date().toLocaleDateString(),
-    image: "https://via.placeholder.com/600/771796",
-    tags: [
-      {
-        id: "tag-1",
-        name: "tag 01",
-      },
-      {
-        id: "tag-2",
-        name: "tag 03",
-      },
-      {
-        id: "tag-3",
-        name: "tag 03",
-      },
-    ],
-  },
-];
 
-// Highlight your GitHub stats like - Organisation, Issues Opened, Pull Requests etc.
-export const stats = [
-  {
-    id: "stats-1",
-    title: "Organisations",
-    value: "2+",
-  },
-  {
-    id: "stats-2",
-    title: "Issues Opened",
-    value: "6+",
-  },
-  {
-    id: "stats-3",
-    title: "Pull Requests",
-    value: "6+",
-  },
-];
 
-// List out the extra curricular activities you have indulged in, like - student clubs, research groups etc.
-export const extraCurricular = [
-  {
-    id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
-      },
-      {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
-    ],
-    logo: devfolio,
-  },
-  {
-    id: 2,
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
-      },
-      {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
-      },
-    ],
-    logo: gdsc,
-  },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-  {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
-  },
-];
+
+
+
 
 // Links to your social media profiles
 export const socialMedia = [
@@ -1200,8 +882,7 @@ export const aboutMe = {
     "Unity gameplay programmer focused on combat systems, movement mechanics, enemy AI, and physics-driven interactions.",
 };
 
-// The maximum number of PRs to be displayed in the Open Source Contributions section.
-export const itemsToFetch = 20;
+
 
 // GitHub repos to show open source contributions from.
 // Each entry is either "owner/repo" or ["owner/repo", "public-display-name"].
