@@ -3,6 +3,7 @@ import LetsConnect from "./LetsConnect";
 import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
+import amanPhoto from "../assets/aman.jpeg";
 
 
 // lottie config
@@ -39,6 +40,9 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
           <span className="text-gradient">{aboutMe.name}</span>
         </h1>
+        <h1 className="font-poppins font-semibold ss:text-[28px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
+          <span className="text-gradient">{aboutMe.tagLine}</span>
+        </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           {aboutMe.intro}
         </p>
@@ -47,9 +51,13 @@ const Hero = () => {
       <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
-        <div className="relative z-index-[5] h-[90%] w-[85%]">
-          <Lottie {...defaultOptions} />
-        </div>
+        <div className="relative z-[5] flex justify-center items-center">
+  <img
+    src={amanPhoto}
+    alt="Aman Gupta"
+    className="w-[350px] h-[350px] object-cover rounded-full border-4 border-cyan-400 shadow-2xl"
+  />
+</div>
         <div className="absolute z-[1] w-[50%] h-[50%] rounded-full bottom-40 white__gradient"></div>
       </div>
 
