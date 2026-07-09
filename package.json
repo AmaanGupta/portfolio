@@ -3,10 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://amaangupta.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "deploy": "gh-pages -d dist",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
@@ -26,6 +28,7 @@
     "autoprefixer": "^10.4.21",
     "cypress": "^15.11.0",
     "cypress-vite": "^1.8.0",
+    "gh-pages": "^6.3.0",
     "netlify-cli": "^24.0.1",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.13",
