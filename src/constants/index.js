@@ -145,18 +145,18 @@ export const navLinks = [
 // Add your past achievements here for example - rankings in hackathons/events
 export const achievements = [
   {
-    id: "a-1",
-    icon: ethindia,
-    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 10 Overall Finalists/Winners, True Network's Winner",
-    content2: "Polkadot's 1st Runner Up, Lit Protocol's 2nd Runner Up",
-    content3: "Coinbase Pool Prize, Base Top 10",
+    id: "",
+
+    event: "",
+    position: "",
+    content1: "",
+    content2: "",
+    content3: "",
     article:
-      "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
-    project: "https://devfolio.co/projects/khoj-3336",
+      "",
+    project: "",
     youtube:
-      "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
+      "",
   },
   
 ];
@@ -315,6 +315,10 @@ export const projects = [
             src: darkScreenshot1,
           },
           {
+            type: "youtube",
+            src: "https://www.youtube.com/embed/8vv4g_NnUyQ?si=7Vj_ctjaJ-x4y15E",
+          },
+          {
             type: "image",
             src: darkScreenshot2,
           },
@@ -322,10 +326,7 @@ export const projects = [
             type: "image",
             src: darkScreenshot3,
           },
-          {
-            type: "youtube",
-            src: "https://www.youtube.com/embed/8vv4g_NnUyQ?si=7Vj_ctjaJ-x4y15E",
-          },
+          
         ],
 
    summary:
@@ -359,16 +360,35 @@ export const projects = [
     link: "https://aman53.itch.io/bazooka",
 
     image: bazooka,
+    summary:
+    "A fast-paced top-down zombie survival shooter built in Unity, centered around charge-based bazooka combat and physics-driven knockback.",
+
+    features: [
+      "Developed a charge-based projectile system with variable launch power",
+      "Implemented physics-driven knockback for responsive and impactful combat",
+      "Built enemy AI using finite state machines for movement and attack behaviour",
+      "Created a wave progression system with increasingly challenging enemy encounters",
+      "Implemented multiple enemy types with distinct gameplay behaviours",
+      "Built a complete game loop with wave progression, game-over, restart, and victory states",
+    ],
 
    media: [
           {
             type: "image",
             src: bazookaScreenshot1,
           },
+          {
+            type: "image",
+            src: bazookaScreenshot2,
+          },
         
           {
             type: "youtube",
-            src: "https://www.youtube.com/embed/8vv4g_NnUyQ?si=7Vj_ctjaJ-x4y15E",
+            src: "https://www.youtube.com/embed/6n5PibIxQvY",
+          },
+          {
+            type: "image",
+            src: bazookaScreenshot3,
           },
         ],
 
