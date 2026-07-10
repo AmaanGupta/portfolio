@@ -1,3 +1,4 @@
+import { FaItchIo } from "react-icons/fa6";
 import {
   nitk,
   gdsc,
@@ -853,24 +854,51 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/amaan-gupta-7bba7b329/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/AmaanGupta",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:work.parthmittal@gmail.com",
+    link: "mailto:06amaangupta@gmail.com",
   },
   {
     id: "social-media-4",
-    icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    icon: AiFillInstagram,
+    link: "https://www.instagram.com/filson_whisk",
+  },
+  {
+    id: "social-media-5",
+    icon: FaItchIo,
+    link: "https://aman53.itch.io/",
   }
 ];
+export const socialMediaTop = [
+
+  {
+    id: "social-media-1",
+    icon: AiFillLinkedin,
+    link: "https://www.linkedin.com/in/amaan-gupta-7bba7b329/",
+  },
+  
+  {
+    
+    id: "social-media-2",
+    icon: AiFillGithub,
+    link: "https://github.com/AmaanGupta",
+  },
+  
+  {
+    id: "social-media-5",
+    icon: FaItchIo,
+    link: "https://aman53.itch.io/",
+  }
+];
+
 
 // Your professional summary
 export const aboutMe = {

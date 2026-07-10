@@ -35,7 +35,7 @@ const Navbar = () => {
         <img
           src={parthmittal}
           alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
+          className="w-[100px] h-[80px]"
         />
       </a>
 

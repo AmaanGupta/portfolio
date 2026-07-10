@@ -4,6 +4,10 @@ import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
 import { aboutMe } from "../constants";
 import amanPhoto from "../assets/aman.jpeg";
+import { socialMediaTop } from "../constants";
+import { resumeLink, repoLink } from "../constants";
+import { AiFillGithub, AiFillFilePdf } from "react-icons/ai";
+import Button from "./Button";
 
 
 // lottie config
@@ -26,7 +30,7 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
-          <span className="text-gradient">{aboutMe.name}</span>
+          <span className="text-white">{aboutMe.name}</span>
         </h1>
         <h1 className="font-poppins font-semibold ss:text-[28px] text-[52px] text-white ss:leading-[80px] leading-[80px] w-full">
           <span className="text-gradient">{aboutMe.tagLine}</span>
@@ -35,13 +39,32 @@ const Hero = () => {
           {aboutMe.intro}
         </p>
         
-        <div className="flex flex-row justify-between items-center w-full text-white">
-          
+        
+        <div className="flex items-center gap-4 mt-8">
+  {socialMediaTop.map((item) => {
+    const Icon = item.icon;
 
-          <div className="ss:flex hidden md:mr-8 mr-0 mt-28">
-           <LetsConnect />
-          </div>
-        </div>
+    return (
+      <a
+        key={item.id}
+        href={item.link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-cyan-400 hover:text-white transition-all duration-300"
+      >
+        <Icon size={30} />
+      </a>
+    );
+  })}
+
+  <a href={resumeLink} target="_blank" rel="noopener noreferrer">
+    <Button
+      styles="inline-flex items-center justify-center ml-2"
+      text="Resume"
+      icon={AiFillFilePdf}
+    />
+  </a>
+</div>
 
         
       </div>
@@ -53,7 +76,7 @@ const Hero = () => {
   <img
     src={amanPhoto}
     alt="Aman Gupta"
-    className="w-[360px] h-[500px] object-cover rounded-3xl shadow-2xl"
+    className="w-[400px] h-[550px] object-cover rounded-3xl shadow-2xl"
   />
 </div>
         <div className="absolute z-[1] w-[50%] h-[50%] rounded-full bottom-40 white__gradient"></div>
