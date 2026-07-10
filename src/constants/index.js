@@ -1,4 +1,13 @@
 import { FaItchIo } from "react-icons/fa6";
+import { TbBrandCSharp } from "react-icons/tb";
+import darkScreenshot1 from "../assets/projects/dark-was-safer/screenshot1.png";
+import darkScreenshot2 from "../assets/projects/dark-was-safer/screenshot2.png";
+import darkScreenshot3 from "../assets/projects/dark-was-safer/screenshot3.png";
+import bazookaScreenshot1 from "../assets/projects/bazooka/screenshot1.png";
+import bazookaScreenshot2 from "../assets/projects/bazooka/screenshot2.png";
+import bazookaScreenshot3 from "../assets/projects/bazooka/screenshot3.png";
+import bazooka from "../assets/bazooka.jpg";
+
 import {
   nitk,
   gdsc,
@@ -79,7 +88,16 @@ import {
   SiGooglesheets,
   SiThirdweb,
   SiVercel,
-  SiIntellijidea
+  SiIntellijidea,
+  SiCachet,
+  SiNicehash,
+  SiUnity,
+  SiVrchat,
+  SiBlender,
+  SiGamedeveloper,
+  SiUikit,
+  SiUbisoft,
+  SiSharp
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -90,12 +108,15 @@ import { FaGolang, FaXTwitter } from "react-icons/fa6";
 
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 import { VscAzure } from "react-icons/vsc";
-import { BiLogoVisualStudio } from "react-icons/bi";
+import { BiCamera, BiLogoVisualStudio, BiSolidJoystick } from "react-icons/bi";
 
 import { RiGeminiFill } from "react-icons/ri";
+import { BsGithub, BsHeadsetVr, BsPersonArmsUp, BsRobot } from "react-icons/bs";
+import { CiSettings } from "react-icons/ci";
+import { GiArtificialIntelligence, GiSettingsKnobs } from "react-icons/gi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+  "https://drive.google.com/file/d/1amNznsbyN6r-YHkNeMWAcTunwIcXeSRA/view?usp=drive_link";
 export const repoLink = "https://github.com/AmaanGupta";
 
 export const callToAction = "https://www.linkedin.com/in/amaan-gupta-7bba7b329/";
@@ -147,109 +168,47 @@ export const skills = [
     items: [
       {
         id: "pl-1",
+        icon: TbBrandCSharp,
+        name: "C#",
+      },
+      
+      {
+        id: "pl-3",
         icon: SiPython,
         name: "Python",
       },
-      {
-        id: "pl-2",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
-        id: "pl-3",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "pl-4",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-5",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-6",
-        icon: SiTypescript,
-        name: "TypeScript",
-      },
-      {
-        id: "pl-7",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-8",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-9",
-        icon: FaRust,
-        name: "Rust",
-      },
-      {
-        id: "pl-10",
-        icon: SiC,
-        name: "C",
-      },
-      {
-        id: "pl-11",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "pl-12",
-        icon: DiCss3,
-        name: "CSS",
-      },
+      
     ],
   },
   {
-    title: "Frameworks/Libraries",
+    title: "Game Engines / Technologies",
     items: [
       {
         id: "f-1",
-        icon: SiReact,
-        name: "ReactJS",
+        icon: SiUnity,
+        name: "Unity",
       },
       {
         id: "f-2",
-        icon: SiDjango,
-        name: "Django",
+        icon: BiCamera,
+        name: "Cinemachine",
       },
       {
         id: "f-3",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
+        icon: BsRobot,
+        name: "AI Navigation",
       },
       {
         id: "f-4",
-        icon: SiBootstrap,
-        name: "Bootstrap",
+        icon: BsPersonArmsUp,
+        name: "UnityPhysics",
       },
       {
         id: "f-5",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
+        icon: GiSettingsKnobs,
+        name: "XR Toolkit",
       },
-      {
-        id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
-      },
+      
     ],
   },
   {
@@ -257,59 +216,25 @@ export const skills = [
     items: [
       {
         id: "t-1",
-        icon: SiOracle,
-        name: "Oracle Cloud",
-      },
-      {
-        id: "t-2",
-        icon: VscAzure,
-        name: "Azure",
-      },
-      {
-        id: "t-3",
-        icon: SiMysql,
-        name: "MySQL",
-      },
-      {
-        id: "t-4",
-        icon: SiPostman,
-        name: "Postman",
-      },
-      {
-        id: "t-5",
-        icon: BiLogoVisualStudio,
-        name: "VS Code",
-      },
-      {
-        id: "t-6",
-        icon: SiIntellijidea,
-        name: "IntelliJ IDEA",
-      },
-      {
-        id: "t-7",
         icon: SiGit,
         name: "Git",
       },
       {
-        id: "t-8",
-        icon: AiFillGithub,
+        id: "t-2",
+        icon: BsGithub,
         name: "GitHub",
       },
       {
-        id: "t-9",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
+        id: "t-3",
+        icon: BiLogoVisualStudio,
+        name: "VS Code",
       },
       {
-        id: "t-10",
-        icon: SiNetlify,
-        name: "Netlify",
+        id: "t-4",
+        icon: SiBlender,
+        name: "Blender",
       },
-      {
-        id: "t-11",
-        icon: SiVite,
-        name: "ViteJS",
-      },
+      
     ],
   },
 ];
@@ -317,120 +242,54 @@ export const skills = [
 // Add your current/past professional work experience here
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "XOX Studios",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "",
     positions: [
       {
-        title: "Member of Technical Staff",
-        duration: "Oct 2025 - Present",
+        title: "Unity Game Programmer",
+        duration: "June 2026 - Present",
         content: [
           {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Sep 2025",
-        content: [
-          {
-            text: "Made several fixes to reduce the time taken for backup deletion from OCI Object Storage for large customers resulting in decreased costs.",
+            text: "Contributing to the development of Everhollow, a mobile action RPG, with a focus on gameplay systems, mobile controls, player movement, camera behaviour, and combat mechanics.",
             link: "",
           },
           {
-            text: "Worked towards building an AI On-Call Agent using an internal agentic framework.",
+            text: "Developed directional targeting and combo-based combat systems.",
             link: "",
           },
           {
-            text: "Developed a common integration test framework for ExaCS, ExaDB-XS and ExaCC, reducing code maintenance by ~67% and increased coverage by ~50%",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
+            text: "Implemented mobile movement, touch camera controls, sprinting, and crouching.",
             link: "",
           },
           {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "Developed stealth mechanics with enemy detection and awareness systems.",
+            link: "",
+          },
+          {
+            text: "Improved animation transitions, input responsiveness, and gameplay polish.",
+            link: "",
+          },
+          {
+            text: "Collaborated through regular meetings, testing, debugging, and feedback.",
             link: "",
           },
         ],
       },
     ],
   },
+
   {
-    organisation: "Averlon",
+    organisation: "Fiverr",
     logo: averlon,
-    link: "https://averlon.ai/",
+    link: "",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "3D Artist",
+        duration: "Apr 2025 - Sept 2025",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: "",
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
+            text: "Created custom 3D models and assets based on client requirements, incorporating feedback and delivering production-ready work for international clients.",
             link: "",
           },
         ],
@@ -443,400 +302,89 @@ export const experiences = [
 export const projects = [
   {
     id: "project-1",
-    title: "Khoj",
-    github: "https://github.com/mittal-parth/Khoj",
-    link: "https://playkhoj.com/",
+    title: "The Dark Was Safer",
+
+    github: "https://github.com/AmaanGupta/The-Dark-Was-Safer",
+    link: "https://aman53.itch.io/the-dark-was-safer",
+
     image: khoj,
-    content:
-      "Participate in AI-personalised treasure hunts where each clue is a physical location. Earn on-chain rewards and onboard a million users. Overall winning project at ETHIndia'24.",
+
+    media: [
+          {
+            type: "image",
+            src: darkScreenshot1,
+          },
+          {
+            type: "image",
+            src: darkScreenshot2,
+          },
+          {
+            type: "image",
+            src: darkScreenshot3,
+          },
+          {
+            type: "youtube",
+            src: "https://www.youtube.com/embed/8vv4g_NnUyQ?si=7Vj_ctjaJ-x4y15E",
+          },
+        ],
+
+   summary:
+    "A Top-Down puzzle-adventure game built in Unity around a light-driven interaction system, where illuminating objects dynamically changes the environment and gameplay.",
+
+    features: [
+          "Developed a light-based interaction system with timed object responses",
+          "Implemented destructible obstacles and illumination-triggered mechanics",
+          "Created enemy spawning, movement, and light-based freeze behaviour",
+          "Built level progression, checkpoints, teleportation, and reset systems",
+          "Designed a complete gameplay loop with puzzle encounters and an escape sequence",
+        ],
     stack: [
       {
         id: "proj1-icon-1",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiUnity,
+        name: "Unity",
       },
       {
         id: "proj1-icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
-      },
-      {
-        id: "proj1-icon-3",
-        icon: SiReact,
-        name: "React.js",
-      },
-      {
-        id: "proj1-icon-4",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "proj1-icon-5",
-        icon: RiGeminiFill,
-        name: "Gemini",
-      },
-      {
-        id: "proj1-icon-6",
-        icon: SiThirdweb,
-        name: "Thirdweb",
-      },
-      {
-        id: "proj1-icon-7",
-        icon: SiIpfs,
-        name: "IPFS",
+        icon: SiSharp,
+        name: "C#",
       },
     ],
   },
   {
     id: "project-2",
-    title: "Echo",
-    github: "https://github.com/imApoorva36/Echo",
-    link: "https://testflight.apple.com/join/TpYrhKRy",
-    image: echo,
+    title: "Bazooka!",
+
+    github: "https://github.com/AmaanGupta/Bazooka",
+    link: "https://aman53.itch.io/bazooka",
+
+    image: bazooka,
+
+   media: [
+          {
+            type: "image",
+            src: bazookaScreenshot1,
+          },
+        
+          {
+            type: "youtube",
+            src: "https://www.youtube.com/embed/8vv4g_NnUyQ?si=7Vj_ctjaJ-x4y15E",
+          },
+        ],
+
     content:
-      "A proactive AI assistant that's always listening and executes without you having to ask. Available on iOS TestFlight.",
+      "The Dark Was Safer is a 3D puzzle-adventure game built in Unity for a game jam around the theme “Inverted.” In a world where darkness is safe and light is dangerous, players must strategically use their lantern to destroy obstacles, trigger environmental interactions, awaken enemies, and solve puzzles. The project features light-driven gameplay systems, enemy encounters, level progression, checkpoints, and a complete gameplay loop.",
+
     stack: [
       {
-        id: "projEcho-icon-1",
-        icon: SiTypescript,
-        name: "TypeScript",
+        id: "proj1-icon-1",
+        icon: SiUnity,
+        name: "Unity",
       },
       {
-        id: "projEcho-icon-2",
-        icon: SiReact,
-        name: "React Native",
-      },
-      {
-        id: "projEcho-icon-3",
-        icon: SiNodedotjs,
-        name: "Node.js",
-      },
-      {
-        id: "projEcho-icon-4",
-        icon: SiSupabase,
-        name: "Supabase",
-      },
-      {
-        id: "projEcho-icon-5",
-        icon: SiVercel,
-        name: "Vercel AI SDK",
-      },
-    ],
-  },
-  {
-    id: "project-3",
-    title: "Hackathon Curation AI Agent",
-    github: "https://github.com/mittal-parth/hackathon-curation-agent",
-    image: hackathon_curation_agent,
-    content:
-      "An intelligent agent that automatically curates hackathons from your email newsletters, evaluates them using AI, and posts the best ones to Twitter.",
-    stack: [
-      {
-        id: "proj2-icon-1",
-        icon: SiPython,
-        name: "Python",
-      },
-      {
-        id: "proj2-icon-2",
-        icon: RiGeminiFill,
-        name: "Gemini",
-      },
-      {
-        id: "proj2-icon-3",
-        icon: SiGmail,
-        name: "Gmail API",
-      },
-      {
-        id: "proj2-icon-4",
-        icon: SiGooglesheets,
-        name: "Google Sheets API",
-      },
-      {
-        id: "proj2-icon-5",
-        icon: FaXTwitter,
-        name: "Twitter API",
-      },
-      {
-        id: "proj2-icon-6",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://devfolio.co/projects/comicifyai-97a6",
-    image: comicify_ai,
-    content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
-    stack: [
-      {
-        id: "proj3-icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "proj3-icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "proj3-icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
-      },
-      {
-        id: "proj3-icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "proj3-icon-5",
-        icon: SiFlask,
-        name: "Flask",
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Polkadot Dev CLI",
-    github: "https://github.com/mittal-parth/polkadot-dev-cli",
-    link: "https://crates.io/crates/polkadot-dev-cli",
-    image: polkadot_dev_cli,
-    content:
-      "CLI tool for Polkadot developers bundling linting, formatting, and version management. cargo install polkadot-dev-cli.",
-    stack: [
-      {
-        id: "proj4-icon-1",
-        icon: FaRust,
-        name: "Rust",
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "proj5-icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "proj5-icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "proj5-icon-3",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "proj6-icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "proj6-icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "proj6-icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
-      },
-      {
-        id: "proj6-icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "proj6-icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "proj6-icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon.",
-    stack: [
-      {
-        id: "proj7-icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "proj7-icon-2",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "proj7-icon-3",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "proj7-icon-4",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "proj7-icon-5",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "proj7-icon-6",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "proj7-icon-7",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "proj8-icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6",
-      },
-      {
-        id: "proj8-icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "proj8-icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server",
-      },
-      {
-        id: "proj8-icon-4",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "proj8-icon-5",
-        icon: SiTwilio,
-        name: "Twillio",
-      },
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content: "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "proj9-icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "proj9-icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "proj9-icon-3",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-    ],
-  },
-  {
-    id: "project-11",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Open source developer portfolio template with modern UI/UX. 140+ stars on GitHub.",
-    stack: [
-      {
-        id: "proj10-icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "proj10-icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
-        id: "proj10-icon-3",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-    ],
-  },
-  {
-    id: "project-12",
-    title: "Kosh SDK",
-    github: "https://github.com/mittal-parth/kosh-sdk",
-    link: "https://ethglobal.com/showcase/kosh-hk3mp",
-    image: kosh,
-    content:
-      "Simple and secure way to interact with remote MCP Servers in Trusted Execution Environments (TEEs). Built at ETHGlobal Trifecta Hackathon.",
-    stack: [
-      {
-        id: "proj11-icon-1",
-        icon: SiTypescript,
-        name: "Typescript",
-      },
-      {
-        id: "proj11-icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "proj11-icon-3",
-        icon: SiPython,
-        name: "Python",
+        id: "proj1-icon-2",
+        icon: SiSharp,
+        name: "C#",
       },
     ],
   },
