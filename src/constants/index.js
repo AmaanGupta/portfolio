@@ -437,7 +437,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/filson_whisk",
+    link: "https://www.instagram.com/studio.hellskitten/",
   },
   {
     id: "social-media-5",
