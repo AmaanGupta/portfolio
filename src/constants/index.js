@@ -75,14 +75,14 @@ import {
   SiWeb3Dotjs,
   SiIpfs,
   SiDotnet,
-  SiTwilio,
+  
   SiFlask,
-  SiOpenai,
+  
   SiGooglecloud,
   SiNextdotjs,
   SiTypescript,
   SiNodedotjs,
-  SiOracle,
+  
   SiSupabase,
   SiGmail,
   SiGooglesheets,
